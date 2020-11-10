@@ -95,21 +95,51 @@ function App() {
         <LineStyle />
         <h4 style={{ textAlign: "right" }}>% Daily value</h4>
         <ListCard nutrition="Total fat 0.3g" size="0%" borderTop={true} />
-        <ListCard nutrition="Saturated fat 0.1g" size="0%" borderTop={true} light={true}/>
+        <ListCard
+          nutrition="Saturated fat 0.1g"
+          size="0%"
+          borderTop={true}
+          light={true}
+        />
         <ListCard nutrition="Sodium 1mg" size="0%" borderTop={true} />
         <ListCard
           nutrition="Total carbohydrate 23g"
           size="8%"
           borderTop={true}
         />
-        <ListCard nutrition="Dietary fiber 2.6g" size="9%" borderTop={true} light={true}/>
-        <ListCard nutrition="Sugar 12g" borderTop={true} light={true}/>
+        <ListCard
+          nutrition="Dietary fiber 2.6g"
+          size="9%"
+          borderTop={true}
+          light={true}
+        />
+        <ListCard nutrition="Sugar 12g" borderTop={true} light={true} />
         <ListCard nutrition="Protein 1.1g" size="2%" borderTop={true} />
         <LineStyle />
-        <ListCard nutrition="Vitamin D 0.00mg" size="0%" borderTop={true} light={true}/>
-        <ListCard nutrition="Calcium 5.00mg" size="0%" borderTop={true} light={true}/>
-        <ListCard nutrition="Iron 0.26g" size="1%" borderTop={true} light={true}/>
-        <ListCard nutrition="Potassium 358mg" size="8%" borderTop={true} light={true}/>
+        <ListCard
+          nutrition="Vitamin D 0.00mg"
+          size="0%"
+          borderTop={true}
+          light={true}
+        />
+        <ListCard
+          nutrition="Calcium 5.00mg"
+          size="0%"
+          borderTop={true}
+          light={true}
+        />
+        <ListCard
+          nutrition="Iron 0.26g"
+          size="1%"
+          borderTop={true}
+          light={true}
+        />
+        <ListCard
+          nutrition="Potassium 358mg"
+          size="8%"
+          borderTop={true}
+          light={true}
+        />
         <LineStyle />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
@@ -179,18 +209,18 @@ function App() {
         <CarouselContainer>
           <Carousel className="client-content">
             <div>
-              <img src={Mango} />
+              <img src={Mango} alt="" />
 
-              <img src={Mango} />
+              <img src={Mango} alt=""/>
 
-              <img src={Mango} />
+              <img src={Mango} alt=""/>
             </div>
           </Carousel>
           <Carousel className="client-content">
             <div>
-              <img src={Images} />
-              <img src={Images} />
-              <img src={Images} />
+              <img src={Images} alt=""/>
+              <img src={Images} alt=""/>
+              <img src={Images} alt=""/>
             </div>
           </Carousel>
           <Prev onClick={() => plusSlides(-1)}>
